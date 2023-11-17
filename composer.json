@@ -1,5 +1,5 @@
 {
-    "name": "camya/filament-title-with-slug",
+    "name": "elementary-interactive/filament-title-with-slug",
     "description": "TitleWithSlugInput - Easy Permalink Slugs for the FilamentPHP Form Builder (PHP / Laravel / Livewire)",
     "keywords": [
         "framework",
@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": "^8.0.2",
-        "filament/filament": "^2.16",
+        "filament/filament": "^3.0",
         "illuminate/contracts": "^9.0|^10.0",
         "spatie/laravel-package-tools": "^1.13.0"
     },
