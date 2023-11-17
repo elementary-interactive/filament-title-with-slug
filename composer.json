@@ -11,14 +11,14 @@
         "alpinejs",
         "tailwindcss"
     ],
-    "homepage": "https://github.com/camya/filament-title-with-slug",
+    "homepage": "https://github.com/elementary/filament-title-with-slug",
     "license": "MIT",
     "authors": [
         {
             "name": "Andreas Scheibel",
-            "email": "contact@camya.com",
+            "email": "contact@elementary.com",
             "role": "Developer",
-            "homepage": "https://www.camya.com"
+            "homepage": "https://www.elementary.com"
         }
     ],
     "require": {
@@ -46,12 +46,12 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Camya\\Filament\\": "src"
+            "Elementary\\Filament\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Camya\\Filament\\Tests\\": "tests"
+            "Elementary\\Filament\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -73,7 +73,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Camya\\Filament\\FilamentTitleWithSlugServiceProvider"
+                "Elementary\\Filament\\FilamentTitleWithSlugServiceProvider"
             ]
         }
     },
